@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 
+        +Saúde: Veja seu IMC!
+    </title>
+
+    <!--Css-->
+    <link rel="stylesheet" href="style/style.css"/>
+
+    <!--Js-->
+    <script src="script/main.js"></script>
+
+</head>
+
+<body>
+    
+    <img src="images/logo.png" class="img-logo"> 
+    <h1>Saiba seu IMC:</h1>
+    <h3>confira se você está no peso adequado!</h3>
+    
+    <div id="content"><label id="resultado"></label>
+        <div id="container-form">
+            <form id="form-imc" class="imc-calc">
+                <h2>Altura:</h2><input id="altura" name="altura" type="text" placeholder="Altura(cm)" class="input-imc" required/>
+                <h2>Peso: </h2><input id="peso" type="text" placeholder="Peso(kg)" class="input-imc"required />
+                <br>
+                <br>
+                <input type="button" value="CALCULAR" id="btn-calc" onclick="calcularIMC()" class="btn-imc"><br><br>  
+            </form>
+        </div>
+    </div>
+    <br> <br> 
+    <div id="rodape">
+        <label>Desenvolvido como projeto de estudo por: Lucas Nogueira Delegredo <a href="https://github.com/lucasdelegredo"><img src="images/github.png"></a><a href="https://www.linkedin.com/in/lucasdelegredo/"><img src="images/linkedin.png"></a></label>
+    </div>
+</body>
+</html>

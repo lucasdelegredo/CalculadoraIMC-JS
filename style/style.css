@@ -1,0 +1,87 @@
+body{
+    background-color: #FEA4FF;
+    background-image: url("../images/background.png");
+    font-family:sitefonte;
+}
+@font-face {
+    font-family:'sitefonte';
+    src:url("../font/Hidetoshy.ttf");
+}
+h1{
+    font-size: 70px;
+    color:white;
+    text-align: center;
+    line-height: 0.2;
+}
+h2{
+    font-size: 40px;
+    color:#3a2137;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h3{
+    font-size: 30px;
+    color:white;
+    text-align: center;
+    line-height: 0.5;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+#info-label{
+    font-size: 15px;
+}
+.img-logo{
+width:25%;
+margin-left: 2%;
+margin-top: 1%;
+}
+.img-tabela{
+    width: 50%;
+    margin-left: 25%;
+}
+#content{
+    margin-left: 35%;
+    margin-right: 35%;
+    position: flex;
+    width: 30%;
+    font-size: 40px;
+}
+#resultado{
+    font-size: 40px;
+    text-align: center;
+}
+#container-form{
+    font-size: 45px;
+    text-decoration: underline;
+}
+.imc-calc{
+    font-size: 15px;
+}
+.input-imc{
+    font-size: 30px;
+    border: none;
+    background-color:#e6e6e6;
+    color:#3a2137;
+    font-family: sitefonte;
+    width: 100%;
+}
+.btn-imc{
+    font-size: 30px;
+    border-style: none;
+    background-color: #8e3785;
+    color:white;
+    border: solid 3px white;
+    font-family:sitefonte;
+    float: right;
+}
+.btn-imc:hover{
+    border-style: none;
+    background-color: white;
+    color:#653D65;
+    cursor:pointer;
+}
+#rodape{
+
+}
